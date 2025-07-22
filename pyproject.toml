@@ -1,0 +1,18 @@
+[project]
+name = "emoji_rephraser"
+version = "0.1.0"
+description = "A command-line application that enhances natural language with emojis"
+authors = [
+    {name = "Emoji Rephraser Team"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "strands-agents>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest]
+testpaths = ["tests"]
